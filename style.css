@@ -1,0 +1,54 @@
+/* Tag selector */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+}
+img {
+  border-radius: 50%;
+  border: 5px solid #3366cc;
+}
+a {
+  color: #cc3366;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  color: #3366cc;
+}
+
+/* Class selector */
+.content-box {
+  background-color: #d9ebff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 850px;
+  margin: auto;
+}
+.skills-box {
+  background-color: #f0f1f3;
+  padding: 15px;
+  border-radius: 8px;
+  border: 2px solid #3366cc;
+  max-width: 300px;
+  margin-top: 15px;
+}
+.skills-box ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+.skills-box li {
+  margin-bottom: 6px;
+}
+
+/* ID selector */
+#intro-text {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
